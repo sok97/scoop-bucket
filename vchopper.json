@@ -1,23 +1,15 @@
 {
-    "version": "1.0.6",
-    "description": "A lightweight video cutter and muter",
-    "homepage": "https://github.com/sok97/Go_Vchopper",
-    "license": "MIT",
+    "version": "1.0.8",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/sok97/Go_Vchopper/releases/download/v1.0.6/Go_Vchopper_1.0.6_windows_amd64.tar.gz",
-            "hash": "sha256:7b328131a8729bcf03e7767062c9f8f22178b3472864e2834e4d88aaa2df26b3"
+            "url": "https://github.com/sok97/Go_Vchopper/releases/download/v1.0.8/vchopper_1.0.8_windows_amd64.zip",
+            "bin": [
+                "vchopper.exe"
+            ],
+            "hash": "c3f4b7d830b24b64ec6ef0c30be7f11f6fff3f238df4a39001d85efdedaebe2f"
         }
     },
-    "bin": "vchopper.exe",
-    "checkver": {
-        "github": "https://github.com/sok97/Go_Vchopper"
-    },
-    "autoupdate": {
-        "architecture": {
-            "64bit": {
-                "url": "https://github.com/sok97/Go_Vchopper/releases/download/v$version/Go_Vchopper_$version_windows_amd64.tar.gz"
-            }
-        }
-    }
+    "homepage": "https://github.com/sok97/Go_Vchopper",
+    "license": "MIT",
+    "description": "A lightweight video cutter and muter"
 }
